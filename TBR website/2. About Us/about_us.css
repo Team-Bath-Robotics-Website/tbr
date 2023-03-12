@@ -43,8 +43,8 @@
 }
 
 .text p {
-    text-align: justify;
-    text-justify: inter-word;
+        text-align: justify;
+        text-justify: inter-word;
     background-color: transparent;
     margin: 10px 0 40px;
     font-size: 25px;
@@ -257,7 +257,7 @@
     align-items:200px;   
     position: relative;
     right: -450px;
-    bottom: -170px;
+    bottom: -120px;
 }
 
 @media screen and (max-width:1000px) {
