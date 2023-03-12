@@ -1,0 +1,243 @@
+.main {
+    background-color: #010432;
+    /* overflow-x: hidden; */
+}
+
+.header {
+    border: 1px solid #ff8177;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    color: #ff8177
+}
+
+#team_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5em 2.5em;
+    height: 80%;
+    width: 80%;
+}
+
+.row {
+    color: white;
+    /* border: 1px solid #ff8177; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+.column {
+    width: 100%;
+    /* border: 1px solid white; */
+    padding: 0.5em 0;
+}
+
+.card {
+    /* box-shadow: 0 0 2.2em white; */
+    padding: 3.5em 1em;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #010432;
+}
+
+.card .img_container {
+    width: 8em;
+    height: 8em;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card h3 {
+    font-weight: 500;
+}
+
+.card .role {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 1.5em 0;
+    letter-spacing: 2px;
+}
+
+.card .email {
+    font-weight: 300;
+    margin: 0.5em 0 1.5em 0;
+    letter-spacing: 2px;
+}
+
+.icons {
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4em;
+}
+
+.card:hover {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(119, 9, 121, 1) 42%, rgba(3, 137, 206, 1) 76%, rgba(0, 212, 255, 1) 100%);
+    color: #ffffff;
+}
+
+.card:hover .img_container {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 1em 7em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        padding: 1em;
+    }
+    .card {
+        padding: 5em 1em;
+    }
+    .column {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1em;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.subheader {
+    background: #010432;
+    color: white;
+}
+
+.article {
+    color: white;
+    height: justify;
+    font-size: 20px;
+}
+
+.article p {
+    font-size: medium;
+    margin: 5px auto 0;
+    padding: 10px;
+}
+
+.aside {
+    text-align: 1em;
+    background: #010432;
+    color: white;
+    font-size: 20px;
+}
+
+.aside ul {
+    font-size: medium;
+    position: relative;
+    width: 450px;
+    margin: 10px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 15px rgba(0,0,0,.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.aside ul li{
+    text-align: left;
+    background-color: #141414;
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+@media all and (min-width: 800px) {
+    .article {
+        flex: 3;
+    }
+
+    .aside {
+        order: 2;
+    }
+
+    .article {
+        order: 1;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1;
+    }
+}
+
+/* .main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 60vh;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding-right: 50px;
+    padding-left: 50px;
+} */
+
+/* .main__container {
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+} */
+
+/* .main_content1 {
+    color: white;
+    text-align: justify;
+    line-height: 35px;
+
+    -webkit-columns: 250px 3;
+    -moz-columns: 250px 3;
+    columns: 250px 3;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+} */
+

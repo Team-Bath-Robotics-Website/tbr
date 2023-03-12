@@ -1,0 +1,242 @@
+.daddy {
+    background-image: url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1");
+    background-size: cover;
+
+    background-color: rgb(13, 13, 13);
+    color: rgb(184, 184, 235);
+    text-align: left;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    background-color: #000000;
+}
+
+.title {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.para {
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: space-evenly;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #010432;
+}
+
+.cell {
+    /* -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto; */
+    justify-content: flex-end;
+    padding: 2px;
+    margin: 10px;
+
+    background-color: rgb(13, 13, 13);
+    border: 3px solid rgb(215, 71, 5);
+    border-radius: 5px;
+    text-align: center;
+    align-self: auto;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+.scroller ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.scroll-container {
+    width: auto;
+    height: 300px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.scroll-page-1 {
+    background: #f0de7a;
+}
+
+.scroll-page-2 {
+    background: #afe69a;
+}
+
+.scroll-page-3 {
+    background: #b8b7cd;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #010432;
+    padding: 25px;
+}
+
+article2 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #0d1584;
+    padding: 25px;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 20%,
+            #ac2f59 45%,
+            #3712dd 67%,
+            #221e69 67%,
+            #231557 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2.5s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+    margin: 30px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #df8453;
+    --color-2: #3d8dae;
+    --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+    --color-1: #dbad4a;
+    --color-2: #accfcb;
+    --color-3: #6823bd;
+}
+
+.title-word-3 {
+    --color-1: #accfcb;
+    --color-2: #e4a9a8;
+    --color-3: #accfcb;
+}
+
+.title-word-4 {
+    --color-1: #3d8dae;
+    --color-2: #df8453;
+    --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1);
+    }
+
+    32% {
+        color: var(--color-1);
+    }
+
+    33% {
+        color: var(--color-2);
+    }
+
+    65% {
+        color: var(--color-2);
+    }
+
+    66% {
+        color: var(--color-3);
+    }
+
+    99% {
+        color: var(--color-3);
+    }
+
+    100% {
+        color: var(--color-1);
+    }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

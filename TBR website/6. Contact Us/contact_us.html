@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../6. Contact Us/contact_us.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../1. Home/home.html" id="navbar__logo">University of Bath</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../2. About Us/about_us.html" class="navbar__links">About Us</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../3. The Crew/the_crew.html" class="navbar__links">The Crew</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../4. Projects/projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../5. Gallery/gallery.html" class="navbar__links">Gallery</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="../6. Contact Us/contact_us.html" class="button">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Contact Us</h1>
+    </div>
+    <!-- <main class="title">Contact Us</main> -->
+    <div class="contact-box">
+        <form>
+            <!--honeypot-->
+            <input type="text" name="_honey" style="display: none" />
+            <!--disable captcha for spammers-->
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- success page: <input type="hidden" name="_next" value="nameofwebsite.com/sucess.html">-->
+
+            <input type="text" class="input-field" name="name" placeholder="Your Name" required />
+            <input type="email" class="input-field" name="email" placeholder="Email Address" required />
+            <input type="tel" class="input-field" name="phone" placeholder="Contact Number" required />
+            <input type="text" class="input-field" name="reason for contacting"
+                placeholder="Reason For Contacting Us" />
+            <textarea class="input-field textarea-field" name="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn" formaction="https://formsubmit.co/info.bathrobotics@gmail.com"
+                formmethod="post">
+                Submit
+            </button>
+            <button type="reset" class="btn">Clear</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer__container">
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">University of Bath</a>
+                </div>
+                <p class="website__rights">
+                    Copyright © Team Bath Robotics. All Rights Reserved
+                </p>
+                <div class="social__icons">
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social__icon--link"
+                        href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber" target="_blank"
+                        aria-label="Youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="../app.js"></script>
+</body>
+
+</html>
