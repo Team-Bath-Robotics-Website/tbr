@@ -45,7 +45,7 @@ nav a:hover {
   /* flex-wrap: wrap; */
   /* align-content: flex-start; allows us to align everything on the cross axis. */
   /* gap: 1em; */
-
+  width:100%;
   font-size: 1.2rem;
   position: sticky; /* sets the position property to sticky; the default value is static. */
   top: 0;
@@ -59,12 +59,11 @@ nav a:hover {
   /* grid-template-rows: 100px 100px 100px 100px 100px 100px; */
   /* grid-template-columns: 100px 100px 100px 100px 100px 100px; */
   /* grid-template-areas: ; */
-
+  width:100%;
   justify-content: space-between;
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
 }
