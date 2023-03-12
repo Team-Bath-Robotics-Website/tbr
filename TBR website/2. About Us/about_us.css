@@ -252,11 +252,10 @@
 
 .robotic_tweet {
     max-width: 600px;
-    align-items: 200px;
+    align-items:200px;   
     position: relative;
-    ;
-    right: -470px;
-    bottom: -20px;
+    right: -450px;
+    bottom: -120px;
 }
 
 @media screen and (max-width:1000px) {
