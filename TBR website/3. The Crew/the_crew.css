@@ -27,6 +27,16 @@ h1 {
     width: 80%;
 }
 
+.firstrow {
+    color: white;
+    /* border: 1px solid #ff8177; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 1em;
+    text-align: center;
+    justify-content: center;
+}
+
 .row {
     color: white;
     /* border: 1px solid #ff8177; */
