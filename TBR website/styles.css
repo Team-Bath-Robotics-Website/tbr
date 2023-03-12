@@ -29,6 +29,12 @@ nav a:hover {
 } */
 
 /* Navigation CSS */
+
+.header-logo {
+  height:70px;
+  padding:5px 0;
+}
+
 .navbar {
   background: #010432;
   height: 80px; /* sets the height of the container. */
@@ -72,10 +78,8 @@ nav a:hover {
 
   -webkit-background-clip: text;
   -moz-background-clip: text;
-
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  
   display: flex;
   align-items: center;
   cursor: pointer;
