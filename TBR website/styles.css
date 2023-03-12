@@ -444,7 +444,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 100px;
 }
 
 .social__logo {
