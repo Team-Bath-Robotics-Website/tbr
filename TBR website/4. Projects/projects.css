@@ -118,7 +118,7 @@
   article {
     text-align: justify;
     text-justify: inter-word;
-    font-size = 25px;
+    font-size: 25px;
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
@@ -129,7 +129,7 @@
   article2 {
     text-align: justify;
     text-align-last: right; 
-    font-size = 25px;
+    font-size: 25px;
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
