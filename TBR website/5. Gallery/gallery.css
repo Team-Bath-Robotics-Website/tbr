@@ -122,6 +122,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
     grid-template-rows: auto;
+    align-items: end;
 }
 
 .griditem {
