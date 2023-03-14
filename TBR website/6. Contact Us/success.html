@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<meta name="author" content="Team Bath Robotics">
-<meta name="description" content="Contactpage Sucess">
-<title>Success!</title>
-<link rel="stylesheet" href="contact_us.css">
-<link rel="icon" href="img/Roboticslogo.png" type="image/x-icon">
-<link rel="stylesheet" href="contactpage.css">
-<link rel="icon" href="img/Roboticslogo.png" type="image/x-icon">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../6. Contact Us/contact_us.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="../MAIN_1024x1024.png">
+</head>
 
 <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../1. Home/home.html" id="navbar__logo"><img src="../MAIN_1024x1024.png" class="header-logo">Team Bath Robotics</a>
 
-    <div class="textsuccess">
-        <p class="textsuccess">
-        <main class="textsuccess">Success!
-            <br>
-            We have recieved your message and will get back to you soon.
-            <br>
-            <a href="../1. Home/home.html">Back to Home</a>
-        </main>
-        <!--    <button onclick="back_to_home.href='link to the main page';">Back to Team Bath Robotics Home</button>-->
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../2. About Us/about_us.html" class="navbar__links">About Us</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../3. The Crew/the_crew.html" class="navbar__links">The Crew</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../4. Projects/projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../5. Gallery/gallery.html" class="navbar__links">Gallery</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="../6. Contact Us/contact_us.html" class="button">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Your form has been successfully submitted</h1>
     </div>
+    <div class="success-box">      
+            <p class="text-success">Thank you for contacting us, we have recieved your message and will get back to you shortly.<br><br>In the meantime, you can continue browsing our website using the links below or the navigation bar at the top.</p>
+            <a href="../1. Home/home.html" class="success-links">Back to home page</a>
+            <a href="../6. Contact Us/contact_us.html" class="success-links">Return to previous page</a>
+        </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer__container">
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Team Bath Robotics</a>
+                </div>
+                <p class="website__rights">Copyright © Team Bath Robotics. All Rights Reserved</p>
+                <div class="social__icons">
+                    <a class="social__icon--link" href="https://www.instagram.com/teambathrobotics/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social__icon--link"
+                        href="/" target="_blank"
+                        aria-label="Youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="../app.js"></script>
 </body>
 
 </html>
